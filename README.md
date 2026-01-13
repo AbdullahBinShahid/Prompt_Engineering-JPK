@@ -1,4 +1,5 @@
-**What is Prompt Engineering?**
+ **What is Prompt Engineering?**
+
 Prompt engineering is the art and science of crafting instructions that guide AI language models to produce desired outputs. Think of it as learning to communicate effectively with AI systems to achieve specific goals.
 
 **Why is it important?**
@@ -9,7 +10,7 @@ It's an iterative skill that improves with practice
 It's becoming essential for productivity in many fields
 
 
-Table of Contents
+**Table of Contents**
 •	What is Prompt Engineering?
 •	Understanding Large Language Models
 •	Essential Configuration Settings
@@ -23,19 +24,19 @@ Table of Contents
 •	Mixture-of-Experts (MoE) and Prompt Engineering
 •	The 6-Part Prompting Framework
 
-Prompt engineering vs. context engineering.
+**Prompt engineering vs. context engineering**.
 
 Prompt engineering = crafting the instruction you give the model. 
 Context engineering = curating the information the model can see when following that instruction.
 
-Understanding Large Language Models.
+**Understanding Large Language Models.**
 Large Language Models are prediction engines that:
 •	Take text input (your prompt)
 •	Predict the next most likely word/token
 •	Continue this process to generate complete responses
 •	Base predictions on patterns learned from training data
 
-Fundamental Prompting Techniques:
+**Fundamental Prompting Techniques:**
 	Zero-Shot Prompting.
 	 One-Shot Prompting.
 	 Few-Shot Prompting.
@@ -44,18 +45,20 @@ Fundamental Prompting Techniques:
 	Contextual Prompting.
 
 
-Advanced Prompting Strategies:
+**Advanced Prompting Strategies:**
 	Step-Back Prompting.
 	ReAct (Reasoning + Acting).
 	Tree of Thoughts (ToT).
+**
+Zero-Shot Prompting:**			
 
-Zero-Shot Prompting:			
 	The simplest approach—just ask directly without examples.
 Example:
                  Translate this sentence into English:
                          "Main school ja raha hoon."
 
-One-Shot Prompting:
+**One-Shot Prompting:**
+
 	Provide a single example to guide the response format.
 Example:
 Translate English to French:
@@ -75,12 +78,13 @@ Sentiment: Negative
 
 Sentence: The food tastes amazing.
 Sentiment:	
-What happened here?
+**What happened here?**
 •	You gave a few examples
 •	The AI learned the pattern
 •	Then it answered the new input correctly
 
- System Prompting:
+** System Prompting:**
+
 	Set overall context and behavior guidelines.
 Example:
 You are a helpful travel guide. Provide practical, accurate information about destinations. Always include:
@@ -89,7 +93,9 @@ You are a helpful travel guide. Provide practical, accurate information about de
 - Budget considerations
 - Best time to visit
 User: Tell me about visiting Tokyo.
- Role Prompting:
+
+** Role Prompting:**
+
 Assign a specific character or expertise to the AI.
 Example:
 Act as a technical interviewer. Ask me 5 beginner-level Python questions
@@ -98,7 +104,9 @@ Effective roles:
 •	Creative roles (writer, designer, poet)
 •	Analytical roles (data analyst, consultant)
 •	Communication styles (friendly tutor, formal advisor)
-Contextual Prompting:
+ 
+**Contextual Prompting:**
+
 Provide specific background information relevant to the task.
 
 Example:
