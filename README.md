@@ -183,12 +183,93 @@ Example:
 
 Example #02:
 
-
-         I am a university student. I missed my assignment deadline because I was sick.
-
          Write a polite and professional email to my instructor asking for a 2-day extension.
-
+         I am a university student. I missed my assignment deadline because I was sick.
 Contextual prompting means giving the AI background information or situation (context) before asking your main question, so the response matches the situation correctly.
- 
 
 
+# **Advanced Prompting Strategies**
+
+ ## **Chain of Thought (CoT) Prompting**:
+
+Encourage step-by-step reasoning for complex problems.
+
+**EXAMPLE**
+          
+          Solve this step by step:
+          If I was 6 when my sister was half my age, how old is my sister when I'm 40
+          Let me think through this step by step:
+
+## When to use:
+
+Math problems
+Logical reasoning
+Complex analysis
+Multi-step processes
+Best practices:
+
+Use "Let's think step by step" or similar phrases
+Set temperature to 0 for consistent reasoning
+Extract final answers separately from reasoning
+
+
+## Self-Consistency:
+
+Generate multiple reasoning paths and select the most common answer.
+
+Process:
+
+1.Ask the same question multiple times with different phrasings
+2.Compare the answers
+3.Choose the most frequently occurring result
+
+**Example:**
+
+    You want to know the best time to study.
+
+    You ask the same question to 4 people:
+    
+
+Explanation of Concept: Self-Consistency involves generating multiple answers to the same question using varied reasoning approaches to ensure reliability. By comparing the results, you select the most frequent or consistent outcome, reducing the chance of errors from a single flawed reasoning path
+
+## **Step-Back Prompting**:
+Ask a more general question first, then use that context for the specific question.
+
+**EXAMPLE**
+        
+               PROMPT:  What factors make a vacation enjoyable?”
+               RESPONSE: Weather
+                         Budget
+                         Activities you enjoy
+                         Travel time
+                         Safety
+
+
+                 Now you ask:
+
+                “Considering these factors, which vacation spot suits me best?”
+
+Explanation of Concept: Step-Back Prompting involves first asking a broader, foundational question to establish key principles or context before tackling the specific task. This approach ensures the model grounds its response in general knowledge. before applying it to the specific problem. By breaking the task into two steps, the model produces more informed and structured recommendations, reducing the risk of overlooking critical factors.                
+
+
+## **ReAct (Reasoning + Acting)**
+
+Combine reasoning with tool use or actions.
+
+**EXAMPLE**
+       
+         Step 1 – Reason:
+
+         “I want a restaurant nearby. I like Italian food, and it should have good reviews.”
+
+          Step 2 – Act:
+
+          “Search Google Maps for Italian restaurants within 5 km and sort by rating.”
+
+           Step 3 – Reason:
+
+           “The top-rated one has great reviews but is expensive. I want something affordable too.”
+
+             Step 4 – Act:
+
+              “Check menu prices online and pick the one within my budget.”
