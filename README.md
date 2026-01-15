@@ -86,7 +86,7 @@ Large Language Models are prediction engines that:
 
 	Tree of Thoughts (ToT).
 
-1. **Zero-Shot Prompting:**			
+## 1. **Zero-Shot Prompting:**			
 
 	The simplest approach—just ask directly without examples.
 
@@ -95,7 +95,7 @@ Example:
                  Translate this sentence into English:
                          "Main school ja raha hoon."
 
-2. ## **One-Shot Prompting:**
+ ## 2. ## **One-Shot Prompting:**
 
 	Provide a single example to guide the response format.
 Example:
@@ -108,11 +108,11 @@ Example:
 
     English: "Where is the library?"
 
-3.## **Few-Shot Prompting:**
+## 3. ## **Few-Shot Prompting:**
 
 Few-shot prompting means teaching the AI by showing a few examples first, instead of just giving instructions.
 
-Example:
+**Example:**
 
     Sentence: I love this mobile phone.
 
@@ -134,7 +134,7 @@ Example:
 
 •	Then it answered the new input correctly
 
-4. **System Prompting:**
+## 4. ## **System Prompting:**
 
 	Set overall context and behavior guidelines.
 
@@ -152,7 +152,7 @@ Example:
 
 User: Tell me about visiting Tokyo.
 
-5.## **Role Prompting:**
+## 5. ## **Role Prompting:**
 
 Assign a specific character or expertise to the AI.
 
@@ -170,7 +170,7 @@ Effective roles:
 
 •	Communication styles (friendly tutor, formal advisor)
  
-6. **Contextual Prompting:**
+## 6. ## **Contextual Prompting:**
 
 Provide specific background information relevant to the task.
 
