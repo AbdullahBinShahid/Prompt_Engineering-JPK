@@ -273,3 +273,73 @@ Combine reasoning with tool use or actions.
              Step 4 – Act:
 
               “Check menu prices online and pick the one within my budget.”
+              
+ReAct is a way of solving problems step by step by mixing thinking and doing.
+
+First, you think about what to do next.
+Then, you take an action, like searching for information or using a tool.
+After that, you look at the result and decide your next step.
+This process repeats until the problem is solved.
+
+
+**Best Practices for Effective Prompts**
+
+## 1. Be Specific and Clear
+
+Bad:
+
+    Write about dogs.
+good:
+
+    Write a 300-word informative article about the health benefits of owning a dog, focusing on mental health, physical activity, and social connections. Use a friendly, accessible tone for general readers.
+
+ ## 2. Use Action Verbs
+
+ Be explicit about what you want the AI to do:
+
+Create, Analyze, Describe, Evaluate, Compare
+Generate, Extract, Rank, Summarize, List
+Explain, Translate, Classify, Write
+
+## 3. Provide Examples When Possible
+
+Examples are the most powerful way to communicate your expectations
+
+## 4. Structure Your Prompts
+
+Use clear formatting:
+
+    Task: [What you want done]
+    Context: [Background information]
+    Format: [How you want the output structured]
+    Example: [Sample of desired output]
+
+## 5. Use Instructions Over Constraints
+
+ Better:
+
+    Write a professional email summarizing the key points from our meeting.
+
+  bad:
+
+      Write an email but don't make it too long or too informal or too detailed.
+      
+## 1. Ambiguous Instructions:
+Problem: Vague requests lead to unpredictable outputs 
+Solution: Be specific about what you want
+
+## 2. Contradictory Instructions:
+Problem: Conflicting requirements confuse the model 
+Solution: Review prompts for internal consistency
+
+## 3. Too Many Constraints:
+Problem: Over-constraining limits model creativity 
+Solution: Focus on positive instructions rather than long lists of don'ts
+
+## 4. Ignoring Token Limits:
+Problem: Responses get cut off mid-sentence 
+Solution: Set appropriate limits and structure accordingly
+
+## 5. Not Testing Variations:
+Problem: Assuming first attempt is optimal 
+Solution: Test different phrasings, examples, and approaches
