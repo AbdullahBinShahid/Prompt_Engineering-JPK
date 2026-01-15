@@ -323,6 +323,9 @@ Use clear formatting:
   bad:
 
       Write an email but don't make it too long or too informal or too detailed.
+
+#  Common Pitfalls and How to Avoid Them
+
       
 ## 1. Ambiguous Instructions:
 Problem: Vague requests lead to unpredictable outputs 
