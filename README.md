@@ -1,4 +1,4 @@
-**Which is the best LLM?**
+# **Which is the best LLM?**
 
 See how leading models stack up across text, image, vision, and beyond. This page gives you a snapshot of each Arena:
 
@@ -6,11 +6,11 @@ https://lmarena.ai/leaderboard
  
  
  
- **What is Prompt Engineering?**
+ ## **What is Prompt Engineering?**
 
 Prompt engineering is the art and science of crafting instructions that guide AI language models to produce desired outputs. Think of it as learning to communicate effectively with AI systems to achieve specific goals.
 
-**Why is it important?**
+## **Why is it important?**
 
 You don't need to be a programmer to use AI effectively
 Good prompts can dramatically improve AI performance
@@ -18,7 +18,7 @@ It's an iterative skill that improves with practice
 It's becoming essential for productivity in many fields
 
 
-**Table of Contents**
+## **Table of Contents**
 
 •	What is Prompt Engineering?
 
@@ -44,13 +44,13 @@ It's becoming essential for productivity in many fields
 
 •	The 6-Part Prompting Framework
 
-**Prompt engineering vs. context engineering**.
+## **Prompt engineering vs. context engineering**.
 
 Prompt engineering = crafting the instruction you give the model. 
 
 Context engineering = curating the information the model can see when following that instruction.
 
-**Understanding Large Language Models.**
+## **Understanding Large Language Models.**
 
 Large Language Models are prediction engines that:
 
@@ -63,7 +63,7 @@ Large Language Models are prediction engines that:
 •	Base predictions on patterns learned from training data
 
 
-**Fundamental Prompting Techniques:**
+# **Fundamental Prompting Techniques:**
 
 	Zero-Shot Prompting.
 
@@ -78,7 +78,7 @@ Large Language Models are prediction engines that:
 	Contextual Prompting.
 
 
-**Advanced Prompting Strategies:**
+## **Advanced Prompting Strategies:**
 
 	Step-Back Prompting.
 
@@ -95,7 +95,7 @@ Example:
                  Translate this sentence into English:
                          "Main school ja raha hoon."
 
-2. **One-Shot Prompting:**
+2. ## **One-Shot Prompting:**
 
 	Provide a single example to guide the response format.
 Example:
@@ -108,7 +108,7 @@ Example:
 
     English: "Where is the library?"
 
-3. **Few-Shot Prompting:**
+3.## **Few-Shot Prompting:**
 
 Few-shot prompting means teaching the AI by showing a few examples first, instead of just giving instructions.
 
@@ -152,7 +152,7 @@ Example:
 
 User: Tell me about visiting Tokyo.
 
-5. **Role Prompting:**
+5.## **Role Prompting:**
 
 Assign a specific character or expertise to the AI.
 
