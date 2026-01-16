@@ -198,7 +198,7 @@ Encourage step-by-step reasoning for complex problems.
           
           Solve this step by step:
           If I was 6 when my sister was half my age, how old is my sister when I'm 40
-          Let me think through this step by step:
+          
 
 ## When to use:
 
